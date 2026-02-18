@@ -1,0 +1,25 @@
+h1 {
+    color: pink;
+    animation: bg 5s infinite;
+}
+
+body {
+    background: linear-gradient(180deg, yellow, orange);
+    background-position-y: 0%;
+    background-size: cover;
+
+}
+
+@keyframes bg {
+    0% {
+        color: pink;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: pink;
+    }
+}
